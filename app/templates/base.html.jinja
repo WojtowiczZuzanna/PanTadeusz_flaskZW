@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+    <title>Pan Tadeusz Flask</title>
+    <script>
+        function setNumber(number) {
+            document.getElementById('numberField').value = number;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Pan Tadeusz Flask</h1>
+    </header>
+    <div class="menu">
+        <ul>
+            <li><a href="{{url_for('index')}}">Index</a></li>
+            <li><a href="{{url_for('księgi')}}">Księgi</a></li>
+        </ul>
+    </div>
+    <h2 class="mt-3 mb-3 text-center">"Pan Tadeusz czyli ostatni zajazd na Litwie. Historia szlachecka z roku 1811 i 1812 we dwunastu księgach wierszem"</h2>
+    <section>
+        <p>Strona główna</p>
+    </section>
+    <footer>
+        <p>Zuzanna Wojtowicz, Uniwersytet Ekonomiczny w Krakowie, ZIISS1-1213</p>
+    </footer>
+</body>
+</html>

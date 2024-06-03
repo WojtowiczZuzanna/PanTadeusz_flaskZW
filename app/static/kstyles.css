@@ -1,0 +1,14 @@
+html {
+    font-style: italic;
+    padding-left: 20px;
+}
+body{
+    background-color: #f8f2c7;
+}
+.container {
+    color: rgb(231, 143, 3);
+}
+ h1 {
+    background-color: rgb(231, 143, 3);
+    color: rgb(227, 236, 189);
+}
